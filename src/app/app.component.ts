@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { GameService } from './services/game.service';
+import { GameClass } from './model/game';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'top-games';
+
+  /* All the game values being currently shown */
+  public gameValuesList: Array<GameClass> = [];
+
+  constructor(private gameService: GameService) {
+    this.gameService.gameValsSubj.subscribe(resp => {
+      this.gameValuesList.push(...resp);
+    });
+  }
 }

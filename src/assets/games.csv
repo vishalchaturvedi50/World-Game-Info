@@ -10,7 +10,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 9,New Super Mario Bros. Wii,Wii,2009,Platform,Nintendo,28.62,
 10,Duck Hunt,NES,1984,Shooter,Nintendo,28.31,
 11,Nintendogs,DS,2005,Simulation,Nintendo,24.76,
-12,Mario Kart DS,DS,2005,Racing,Nintendo,23.42,
+12,Mario Kart DS DS,2005,Racing,Nintendo,23.42,
 13,Pokemon Gold/Pokemon Silver,GB,1999,Role-Playing,Nintendo,23.1,
 14,Wii Fit,Wii,2007,Sports,Nintendo,22.72,
 15,Wii Fit Plus,Wii,2009,Sports,Nintendo,22,
@@ -7317,7 +7317,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 7317,Cabela's Big Game Hunter: Ultimate Challenge,PS,2001,Sports,Activision Value,0.21,
 7318,The Legend of Heroes: Trails in the Sky First Chapter,PSP,2006,Role-Playing,Ghostlight,0.21,
 7319,Are You Smarter Than a 5th Grader? Back to School,Wii,2010,Misc,Nintendo,0.21,
-7320,Steins,Gate,PSV,2013,Adventure,0.05,0.21
+7320,Steins Gate PSV,2013,Adventure,0.05,0.21
 7321,The Dukes of Hazzard: Return of the General Lee,PS2,2004,Racing,Ubisoft,0.21,
 7322,Pandemonium!,PS,1996,Platform,BMG Interactive Entertainment,0.21,
 7323,SingStar: Back to the 80s,PS3,2011,Misc,Sony Computer Entertainment,0.21,
@@ -7762,7 +7762,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 7762,Danganronpa 2: Goodbye Despair,PSP,2012,Misc,Spike,0.19,
 7763,Aliens vs Predator,PC,2010,Shooter,Sega,0.19,
 7764,Ice Age 2: The Meltdown,GC,2006,Platform,Vivendi Games,0.19,
-7765,Steins,Gate,PSP,2011,Adventure,0,0.19
+7765,Steins;Gate,PSP,2011,Adventure,0,0.19
 7766,Enchanted Arms,X360,2006,Role-Playing,Ubisoft,0.19,
 7767,Dinotopia: The Timestone Pirates,GBA,2002,Action,TDK Core,0.19,
 7768,Power Pro Kun Pocket 12,DS,2009,Sports,Konami Digital Entertainment,0.19,
@@ -9966,7 +9966,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 9966,Thousand Arms,PS,1998,Role-Playing,Atlus,0.12,
 9967,de Blob 2,DS,2011,Platform,THQ,0.12,
 9968,Arctic Thunder,XB,2001,Racing,Midway Games,0.12,
-9969,Hyperdimension Neptunia Re,Birth 3,PSV,2014,Action,0.03,0.12
+9969,Hyperdimension Neptunia Re;Birth 3,PSV,2014,Action,0.03,0.12
 9970,Barnyard,GC,2006,Action,THQ,0.12,
 9971,Stolen Song,PS,1998,Adventure,Sony Computer Entertainment,0.12,
 9972,Darkspore,PC,2011,Role-Playing,Electronic Arts,0.12,
@@ -10380,7 +10380,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 10380,Carnage Heart,PS,1995,Strategy,Sony Computer Entertainment,0.11,
 10381,"Grand Theft Auto: Mission Pack #1, London 1969",PS,1998,Adventure,Take-Two Interactive,0.11,
 10382,Kamen Rider: Climax Heroes,PS2,2009,Fighting,Namco Bandai Games,0.11,
-10383,Robotics,Notes,PS3,2012,Adventure,0,0.11
+10383,Robotics;Notes,PS3,2012,Adventure,0,0.11
 10384,Disney Channel Collection Vol. 1,GBA,2004,Misc,N/A,0.11,
 10385,Total Immersion Racing,PS2,2002,Racing,Empire Interactive,0.11,
 10386,Virtual Hydlide,SAT,1995,Role-Playing,Sega,0.11,
@@ -11132,7 +11132,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 11132,El Tigre: The Adventures of Manny Rivera,DS,2007,Platform,THQ,0.09,
 11133,Ikaruga,GC,2003,Shooter,Atari,0.09,
 11134,Back to the Future: The Game,PS3,2011,Adventure,Telltale Games,0.09,
-11135,Hyperdimension Neptunia Re,Birth 2,PSV,2014,Action,0.02,0.09
+11135,Hyperdimension Neptunia Re;Birth 2,PSV,2014,Action,0.02,0.09
 11136,The Suffering: Ties That Bind,XB,2005,Action,Midway Games,0.09,
 11137,Nobunaga's Ambition: Iron Triangle,PS2,2006,Strategy,Tecmo Koei,0.09,
 11138,Little League World Series Baseball: Double Play,Wii,2010,Sports,Activision,0.09,
@@ -11371,7 +11371,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 11371,Game of Thrones,PC,2012,Role-Playing,Focus Home Interactive,0.08,
 11372,Shin Megami Tensei: Digital Devil Saga 2,PS2,2005,Role-Playing,Ghostlight,0.08,
 11373,Death Jr. and the Science Fair of Doom,DS,2007,Platform,Konami Digital Entertainment,0.08,
-11374,Steins,Gate,PS3,2012,Adventure,0.01,0.08
+11374,Steins;Gate,PS3,2012,Adventure,0.01,0.08
 11375,Super Monkey Ball Adventure,PSP,2006,Platform,Sega,0.08,
 11376,Zatch Bell! Mamodo Battles,PS2,2005,Fighting,Namco Bandai Games,0.08,
 11377,Dream Day: Wedding Destinations,DS,2009,Simulation,THQ,0.08,
@@ -11436,7 +11436,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 11436,Pop'n Music,Wii,2009,Misc,Konami Digital Entertainment,0.08,
 11437,Outlaw Golf,GC,2002,Sports,TDK Mediactive,0.08,
 11438,Worms: A Space Oddity,Wii,2008,Strategy,THQ,0.08,
-11439,Steins,Gate: Hiyoku Renri no Darling,X360,2011,Adventure,0,0.08
+11439,Steins Gate: Hiyoku Renri no Darling,X360,2011,Adventure,0,0.08
 11440,Diego's Build & Rescue,DS,2010,Action,Take-Two Interactive,0.08,
 11441,King's Field (Japan),PS,1994,Role-Playing,From Software,0.08,
 11442,Slam 'n Jam '96 featuring Magic & Kareem,PS,1995,Sports,Crystal Dynamics,0.08,
@@ -12334,7 +12334,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 12334,Lego Batman 3: Beyond Gotham,PC,2014,Action,Warner Bros. Interactive Entertainment,0.06,
 12335,Killer Instinct (2013),XOne,2013,Fighting,Microsoft Game Studios,0.06,
 12336,Famicom Mini: Balloon Fight,GBA,2004,Action,Nintendo,0.06,
-12337,Steins,Gate: Senkei Kousoku no Phonogram,PS3,2013,Adventure,0,0.06
+12337,Steins Gate: Senkei Kousoku no Phonogram,PS3,2013,Adventure,0,0.06
 12338,Seaman 2: Peking Genjin Ikusei Kit,PS2,2007,Simulation,Sega,0.06,
 12339,Chou Gekijouban Keroro Gunsou 3: Tenkuu Daibouken de Arimasu!,DS,2008,Action,Namco Bandai Games,0.06,
 12340,Bionicle Heroes,DS,2006,Shooter,Eidos Interactive,0.06,
@@ -12413,7 +12413,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 12413,SpongeBob SquarePants: Plankton's Robotic Revenge,3DS,2013,Shooter,Activision,0.06,
 12414,Pro Evolution Soccer 2017,PS3,2016,Sports,Konami Digital Entertainment,0.06,
 12415,Giants: Citizen Kabuto,PS2,2001,Shooter,Interplay,0.06,
-12416,Steins,Gate,X360,2009,Adventure,0,0.06
+12416,Steins Gate,X360,2009,Adventure,0,0.06
 12417,A New Beginning,PC,2010,Adventure,Deep Silver,0.06,
 12418,MotoGP 10/11,X360,2011,Racing,Capcom,0.06,
 12419,Alone in the Dark,PS2,2008,Adventure,Atari,0.06,
@@ -12624,7 +12624,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 12624,S.T.A.L.K.E.R.: Shadow of Chernobyl,PC,2007,Shooter,THQ,0.06,
 12625,Backyard Skateboarding 2006,GBA,2004,Sports,Atari,0.06,
 12626,Tron 2.0: Killer App,XB,2004,Action,Disney Interactive Studios,0.06,
-12627,Steins,Gate: Hiyoku Renri no Darling,PSP,2012,Action,0,0.06
+12627,Steins Gate: Hiyoku Renri no Darling,PSP,2012,Action,0,0.06
 12628,Captain America: Super Soldier,Wii,N/A,Action,Sega,0.06,
 12629,Gegege no Kitarou: Youkai Daigekisen,DS,2008,Action,Namco Bandai Games,0.06,
 12630,Emblem of Gundam,DS,2008,Strategy,Namco Bandai Games,0.06,
@@ -12932,7 +12932,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 12932,Teenage Mutant Ninja Turtles: Mutants in Manhattan,PS3,2016,Action,Activision,0.05,
 12933,Katekyoo Hitman Reborn! DS: Shinuki Max! Vongola Carnival!!,DS,2007,Action,Takara Tomy,0.05,
 12934,Utawarerumono: Futari no Hakuoro,PSV,2016,Misc,Aqua Plus,0.05,
-12935,Chaos,Child,PSV,2015,Adventure,0,0.05
+12935,Chaos Child,PSV,2015,Adventure,0,0.05
 12936,Fatal Fury: Wild Ambition,PS,1999,Fighting,SNK Playmore,0.05,
 12937,Metal Fight Beyblade: Bakugami Susanoh Shuurai!,DS,2010,Action,Hudson Soft,0.05,
 12938,Dengeki Gakuen RPG: Cross of Venus,DS,2009,Role-Playing,ASCII Media Works,0.05,
@@ -13080,7 +13080,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 13080,Monster 4x4: Masters of Metal,GC,2003,Racing,Ubisoft,0.05,
 13081,Bakusou Kyoudai Let's & Go!! Eternal Wings,PS,1998,Racing,Jaleco,0.05,
 13082,Caligula,PSV,2016,Role-Playing,FuRyu,0.05,
-13083,Steins,Gate 0,PSV,2015,Adventure,0,0.05
+13083,Steins Gate 0,PSV,2015,Adventure,0,0.05
 13084,Keroro Gunsou: Enshuu da Yo! Zenin Shuugou Part 2,DS,2007,Action,Namco Bandai Games,0.05,
 13085,NHL Blades of Steel '99,N64,1999,Sports,Konami Digital Entertainment,0.05,
 13086,Lips: Deutsche Partyknaller,X360,2009,Misc,Microsoft Game Studios,0.05,
@@ -13122,7 +13122,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 13122,Arx Fatalis,XB,2003,Role-Playing,Mindscape,0.05,
 13123,Slam Dunk SD Heat Up!!,SNES,1995,Sports,Namco Bandai Games,0.05,
 13124,My Body Coach,Wii,2009,Sports,Big Ben Interactive,0.05,
-13125,Steins,Gate 0,PS4,2015,Adventure,0,0.05
+13125,Steins Gate 0,PS4,2015,Adventure,0,0.05
 13126,Adventure Time: Finn & Jake Investigations,XOne,2015,Action,Little Orbit,0.05,
 13127,Dead in the Water,PS,1999,Action,ASC Games,0.05,
 13128,Winning Post 7 2013,PS3,2013,Sports,Tecmo Koei,0.05,
@@ -13684,7 +13684,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 13684,Sonic PC Collection,PC,2009,Misc,Sega,0.04,
 13685,Horses 3D,3DS,2012,Misc,Ubisoft,0.04,
 13686,Yourself Fitness,PS2,2005,Sports,responDESIGN,0.04,
-13687,Chaos,Head - Love Chu*Chu!,PSP,2011,Adventure,0,0.04
+13687,Chaos Head - Love Chu*Chu!,PSP,2011,Adventure,0,0.04
 13688,Lost Planet 3,PC,2013,Shooter,Capcom,0.04,
 13689,Paws & Claws: Regal Resort,DS,2010,Simulation,THQ,0.04,
 13690,Hannspree Ten Kate Honda: SBK Superbike World Championship,PSP,2007,Racing,Black Bean Games,0.04,
@@ -13985,7 +13985,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 13985,Worms: Ultimate Mayhem,PC,2011,Strategy,Unknown,0.04,
 13986,Scaler,GC,2004,Platform,Take-Two Interactive,0.04,
 13987,NHL Legacy,PS3,2015,Action,Electronic Arts,0.04,
-13988,Chaos,Head Noah,X360,2009,Adventure,0,0.04
+13988,Chaos Head Noah,X360,2009,Adventure,0,0.04
 13989,Tears to Tiara Anecdotes: The Secret of Avalon,PS3,2009,Strategy,Aqua Plus,0.04,
 13990,Legasista,PS3,2012,Role-Playing,Nippon Ichi Software,0.04,
 13991,Fatal Fury: Battle Archives Volume 1,PS2,2006,Fighting,Ignition Entertainment,0.04,
@@ -14356,7 +14356,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 14357,Totally Spies!,GBA,2005,Platform,Atari,0.03,
 14358,DragonHeart: Fire & Steel,PS,1996,Action,Acclaim Entertainment,0.03,
 14359,Nishijin Pachinko Monogatari 2,SNES,1996,Misc,KSS,0.03,
-14360,Chaos,Head - Love Chu*Chu!,X360,2010,Adventure,0,0.03
+14360,Chaos Head - Love Chu*Chu!,X360,2010,Adventure,0,0.03
 14361,Gal Gun: Double Peace,PSV,2015,Action,PQube,0.03,
 14362,PriPara & Pretty Rhythm: PriPara de Tsukaeru Oshare Item 1450!,3DS,2015,Action,Namco Bandai Games,0.03,
 14363,RoadKill,GC,2003,Action,Midway Games,0.03,
@@ -14819,7 +14819,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 14820,AniMates!,DS,2007,Simulation,Lexicon Entertainment,0.03,
 14821,Monster High 13 Wishes,WiiU,2013,Action,Little Orbit,0.03,
 14822,Franklin the Turtle,GBA,2005,Misc,Game Factory,0.03,
-14823,Steins,Gate 0,PS3,2015,Adventure,0,0.03
+14823,Steins Gate 0,PS3,2015,Adventure,0,0.03
 14824,Catan,DS,2009,Strategy,CDV Software Entertainment,0.03,
 14825,Backyard NFL Football,Wii,2007,Sports,Atari,0.03,
 14826,Captain Morgane and the Golden Turtle,PC,2012,Adventure,Reef Entertainment,0.03,
@@ -15037,7 +15037,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 15038,Shanghai: True Valor,PS,1998,Puzzle,Activision,0.02,
 15039,Tokyo Xanadu eX+,PS4,2016,Role-Playing,Nihon Falcom Corporation,0.02,
 15040,Major Dream: Major DS Dream Baseball,DS,2008,Sports,Takara Tomy,0.02,
-15041,Steins,Gate: Senkei Kousoku no Phonogram,X360,2013,Adventure,0,0.02
+15041,Steins Gate: Senkei Kousoku no Phonogram,X360,2013,Adventure,0,0.02
 15042,Thunderbirds,GBA,2004,Shooter,Vivendi Games,0.02,
 15043,Winning Post 8 2015,PSV,2015,Action,Tecmo Koei,0.02,
 15044,Vitamin Z Revolution,PSP,2010,Adventure,D3Publisher,0.02,
@@ -15113,7 +15113,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 15114,Neo Angelique,PS2,2006,Adventure,Tecmo Koei,0.02,
 15115,Big Idea's VeggieTales: LarryBoy and the Bad Apple,PS2,2006,Action,Crave Entertainment,0.02,
 15116,Namco Museum Battle Collection (JP sales),PSP,2005,Misc,Sony Computer Entertainment,0.02,
-15117,Chaos,Head Noah,PSP,2010,Adventure,0,0.02
+15117,Chaos Head Noah,PSP,2010,Adventure,0,0.02
 15118,Brandish: The Dark Revenant,PSP,2009,Role-Playing,Falcom Corporation,0.02,
 15119,Summon Night: Swordcraft Story,GBA,2003,Role-Playing,Banpresto,0.02,
 15120,Samurai Shodown V,XB,2006,Fighting,Ignition Entertainment,0.02,
@@ -15302,7 +15302,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 15303,F1 2016 (Codemasters),PC,2016,Racing,Codemasters,0.02,
 15304,Brain Dead 13,PS,1996,Adventure,Coconuts Japan,0.02,
 15305,Spider-Man 3,PC,2007,Platform,Activision,0.02,
-15306,Robotics,Notes,X360,2012,Adventure,0,0.02
+15306,Robotics Notes,X360,2012,Adventure,0,0.02
 15307,Hoppie,DS,2011,Platform,Jack of All Games,0.02,
 15308,Rugby League Team Manager 2015,PC,2015,Action,Alternative Software,0.02,
 15309,Shaberu! DS Oryouri Navi: Marugoto Teikoku Hotel: Saikouhou no Ryouri-chou ga Oshieru Katei Ryouri,DS,2007,Misc,Tecmo Koei,0.02,
@@ -15456,7 +15456,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 15457,Vietcong,PC,2003,Shooter,Gathering of Developers,0.02,
 15458,StormLover Karen!!,PSP,2011,Adventure,D3Publisher,0.02,
 15459,Digimon Rumble Arena 2,XB,2004,Fighting,Atari,0.02,
-15460,Steins,Gate: Hiyoku Renri no Darling,PS3,2012,Adventure,0,0.02
+15460,Steins Gate: Hiyoku Renri no Darling,PS3,2012,Adventure,0,0.02
 15461,Ten Pin Alley 2,Wii,2008,Sports,XS Games,0.02,
 15462,Coded Soul: Uke Keigareshi Idea,PSP,2008,Role-Playing,Sony Computer Entertainment,0.02,
 15463,Starship Troopers,PC,2005,Shooter,Empire Interactive,0.02,
@@ -15688,7 +15688,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 15689,Machi-ing Maker 4,PS3,2011,Strategy,D3Publisher,0.02,
 15690,World Class Rugby 2: Kokunai Gekitou Hen '93,SNES,1994,Sports,Misawa,0.02,
 15691,Pirates PlundArrr,Wii,2010,Action,Majesco Entertainment,0.02,
-15692,Robotics,Notes,PSV,2014,Adventure,0,0.02
+15692,Robotics Notes,PSV,2014,Adventure,0,0.02
 15693,Ketsui Death Label,DS,2008,Shooter,Arika,0.02,
 15694,Prince of Stride,PSV,2015,Adventure,Kadokawa Games,0.02,
 15695,Syberia II,PC,2004,Adventure,MC2 Entertainment,0.02,
@@ -16264,14 +16264,14 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 16265,"Hanayaka Kana, Ware ga Ichizoku",PSP,2010,Adventure,Idea Factory,0.01,
 16266,Mamoru-kun wa Norowarete Shimatta!,X360,2009,Shooter,G.Rev,0.01,
 16267,Sengoku Hime 2 Arashi: Hyakubana Senran Tatsukaze no Gotoku,PSP,2010,Strategy,System Soft,0.01,
-16268,Myself, Yourself,PS2,2007,Adventure,0,0.01
+16268,Myself Yourself,PS2,2007,Adventure,0,0.01
 16269,Kurogane Kaikitan,PSV,2015,Adventure,Minato Station,0.01,
 16270,Starry ? Sky: After Autumn,PSP,2011,Misc,Aqua Plus,0.01,
 16271,Dokuro,PSV,2012,Action,GungHo,0.01,
 16272,Slide Adventure: Mag Kid,DS,2007,Action,Nintendo,0.01,
 16273,Smuggler's Run,GBA,2002,Racing,Rebellion,0.01,
 16274,The Humans: Meet the Ancestors!,DS,2009,Puzzle,Deep Silver,0.01,
-16275,Chaos,Head Noah,PSV,2014,Adventure,0,0.01
+16275,Chaos Head Noah,PSV,2014,Adventure,0,0.01
 16276,Battlestations: Midway,PC,2007,Strategy,Eidos Interactive,0.01,
 16277,Farming Simulator 15 Expansion Pack,PC,2015,Action,Focus Home Interactive,0.01,
 16278,Jan Sangoku Musou,PS2,2006,Misc,Tecmo Koei,0.01,
@@ -16332,7 +16332,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 16333,Ultraman Fighting Evolution 3,PS2,2004,Fighting,Banpresto,0.01,
 16334,Rondo of Swords (jp sales),DS,2007,Role-Playing,Success,0.01,
 16335,The Eye of Judgment: Legends,PSP,2010,Strategy,Sony Computer Entertainment,0.01,
-16336,Chaos,Child,PS4,2015,Adventure,0,0.01
+16336,Chaos Child,PS4,2015,Adventure,0,0.01
 16337,Greg Hastings' Tournament Paintball Max'd,PS2,2006,Shooter,Activision,0.01,
 16338,Whac-A-Mole,GBA,2005,Puzzle,Zoo Digital Publishing,0.01,
 16339,Nakayoshi All-Stars: Mezase Gakuen Idol,DS,2008,Misc,Creative Core,0.01,
@@ -16415,7 +16415,7 @@ Rank,Name,Platform,Year,Genre,Publisher,Global_Sales,
 16416,The Godfather (JP sales),X360,2006,Action,Electronic Arts,0.01,
 16417,thinkSMART: Chess for Kids,DS,2011,Misc,Mentor Interactive,0.01,
 16418,World Heroes Anthology,PS2,2007,Fighting,Ignition Entertainment,0.01,
-16419,Chaos,Child,PS3,2015,Adventure,0,0.01
+16419,Chaos Child,PS3,2015,Adventure,0,0.01
 16420,th!nk Logic Trainer,Wii,2009,Puzzle,Conspiracy Entertainment,0.01,
 16421,"Tennis no Oji-Sama: Doubles no Oji-Sama - Boys, Be Glorious!",DS,2009,Sports,Konami Digital Entertainment,0.01,
 16422,Routes PE,PS2,2007,Adventure,Aqua Plus,0.01,
