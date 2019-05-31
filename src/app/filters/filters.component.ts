@@ -17,6 +17,7 @@ export class FiltersComponent {
 
     }
 
+    /* Function be called as there is a change in filter values */
     changeInFilterValueFn() {
         this.gameService.getDataAsPerUserSearchFn(this.filter);
     }
