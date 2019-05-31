@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Game Search</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <span class="mr-auto"></span>
+        <form class="form-inline">
+            <select (change)="changeInFilterValueFn()" [ngModelOptions]="{standalone: true}"
+                [(ngModel)]="filter.sortType" class="form-control mr-sm-2">
+                <option value="1">Sort By Rank</option>
+                <option value="2">Sort By Year</option>
+            </select>
+            <input (change)="changeInFilterValueFn()" [ngModelOptions]="{standalone: true}"
+                [(ngModel)]="filter.searchText" class="form-control mr-sm-2" type="search" placeholder="Search"
+                aria-label="Search">
+        </form>
+    </div>
+</nav>

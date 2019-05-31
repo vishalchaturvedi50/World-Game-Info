@@ -1,0 +1,14 @@
+.static-button {
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+  background: #00ceff;
+  border: none;
+  position: fixed;
+  bottom: 3px;
+  right: 13px;
+  outline: none;
+  img {
+    max-width: 1.5em;
+  }
+}

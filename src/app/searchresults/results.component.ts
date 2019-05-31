@@ -13,12 +13,12 @@ export class ResultsComponent {
     /* All the game values being currently shown */
     public gameValuesList: Array<GameClass> = [];
 
-    /*  */
-    public scrollNo = 1;
-
     constructor(private gameService: GameService) {
         this.gameService.gameValsSubj.subscribe(resp => {
-            this.gameValuesList.push(...resp);
+            if (this.gameService.currentScroll > 0)
+                this.gameValuesList.push(...resp);
+            else
+                this.gameValuesList = resp;
         });
     }
 
@@ -30,8 +30,8 @@ export class ResultsComponent {
         var winHeight = window.outerHeight;
         var scrollPercent = scrollTop / (docHeight - winHeight);
         if (scrollPercent > 0.8) {
-            this.scrollNo++;
-            this.gameService.getGameValuesByFilterFn(this.scrollNo);
+            this.gameService.currentScroll++;
+            this.gameService.getGameValuesByScrollFn();
         }
     }
 

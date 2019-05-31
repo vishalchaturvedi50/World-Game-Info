@@ -3,6 +3,7 @@ import { HttpClient } from "@angular/common/http";
 import { GameClass } from '../model/game';
 import { projConstants } from '../model/constant';
 import { Subject } from 'rxjs';
+import { FilterClass } from '../model/filter';
 
 @Injectable()
 export class GameService {
@@ -10,8 +11,15 @@ export class GameService {
     /* A VARIABLE TO HOLD VALUES FOR ALL THE GAMES */
     public allGamesVals: Array<GameClass> = [];
 
+    /* A VARIABLE TO STORE CURRENT FILTERED ITEMS */
+    public currentFilteredItems: Array<GameClass> = [];
+
     /* Subject to send new Values */
     public gameValsSubj: Subject<Array<GameClass>> = new Subject();
+
+    /* CURRENT SCROLL */
+    public currentScroll: number = 0;
+
 
     constructor(private http: HttpClient) {
         this.getAllGameValuesFromCSVFn();
@@ -47,16 +55,18 @@ export class GameService {
                 }
             })
             this.allGamesVals = allGameValues;
+            this.currentFilteredItems = JSON.parse(JSON.stringify(allGameValues));
 
-            this.getGameValuesByFilterFn();
+            this.getGameValuesByScrollFn();
         });
 
     }
 
 
     /* A Function to filter and send the values */
-    getGameValuesByFilterFn(scroll: number = 0) {
-        let vals = this.allGamesVals.slice(scroll * 10, 10 + scroll * 10);
+    getGameValuesByScrollFn() {
+        let vals = this.currentFilteredItems.slice(this.currentScroll * projConstants.itemToAppend,
+            projConstants.itemToAppend + this.currentScroll * projConstants.itemToAppend);
         this.gameValsSubj.next(vals);
     }
 
@@ -64,6 +74,27 @@ export class GameService {
     gameRankInItsDomainFn(item: GameClass) {
         let domainGames = this.allGamesVals.filter(x => x.genre == item.genre);
         return domainGames.findIndex(x => x.rank == item.rank) + 1;
+    }
+
+    /* Filter the results based on change  */
+    getDataAsPerUserSearchFn(filter: FilterClass) {
+        let items = this.allGamesVals;
+        if (filter.searchText.length > 0) {
+            items = items.filter(x => x.name.toLowerCase().indexOf(filter.searchText.toLowerCase()) > -1);
+        }
+
+        if (filter.sortType == 2) {
+            items.sort((a, b) => { return a.year - b.year })
+        }
+        else if (filter.sortType == 1) {
+
+        }
+
+        this.currentFilteredItems = items;
+        this.currentScroll = 0;
+        window.scrollTo(0, 0);
+        this.getGameValuesByScrollFn();
+
     }
 
 

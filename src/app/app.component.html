@@ -1,1 +1,6 @@
+<app-filters></app-filters>
 <app-results></app-results>
+
+<button class="static-button" (click)="scrollToTopFn()" *ngIf="gameService.currentScroll>0">
+    <img src="./assets/arrowup.png" />
+</button>

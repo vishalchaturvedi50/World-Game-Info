@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GameService } from './services/game.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  constructor(public gameService: GameService) { }
 
+  /* SCROLL TO TOP FN */
+  scrollToTopFn() {
+    window.scrollTo(0, 0);
+  }
 
 }
