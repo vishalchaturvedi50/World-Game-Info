@@ -1,0 +1,35 @@
+<div class="d-flex row flex-wrap host-div">
+
+    <div class=" col-12 col-md-4 p-2" *ngFor="let item of gameValuesList;let id=index;">
+        <div class="card  m-1">
+            <img class=" img-fluid cuisine-img card-img-top" src="./assets/{{item.genre.toLowerCase()}}.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <!-- TITLE WITH GENRE -->
+                <div class="d-flex row justify-content-between">
+                    <h5 class="card-title col-8">{{item.name}}</h5>
+                    <div class="col-4 text-right">
+                        <span class=" chip">{{item.genre}}</span>
+                    </div>
+                </div>
+
+                <p class="card-text">
+                    <b>{{item.name}}</b> was launced in the year <b>{{item.year}}</b> on <b>{{item.platform}}</b>
+                    platform.
+                    This game further had in total <b>{{item.globalSales}}M</b> global sales and is currently ranked at
+                    <b>{{item.rank}}</b> globally and <b>{{gameRankInItsDomainFn(item)}}</b> in its own genre that is
+                    <b>{{item.genre}}</b>.
+                </p>
+
+                <p class="card-text text-right">
+                    <a target="_blank" href="https://www.google.com/search?q={{item.name}}">Want to know more ?<img
+                            class="google-img" src="https://img.icons8.com/bubbles/2x/google-logo.png" /></a>
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

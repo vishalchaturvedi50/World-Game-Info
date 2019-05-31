@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { GameService } from './services/game.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { ResultsComponent } from './searchresults/results.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
