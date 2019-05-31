@@ -28,13 +28,12 @@ export class GameService {
 
             allLines.forEach(line => {
                 let temp = new GameClass();
-                let uqObj = line.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+
+                let uqObj = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g);
 
                 if (uqObj != null) {
 
-                    if (uqObj.length > 7) {
-                        console.log(uqObj[0]);
-                    }
+
                     temp.rank = parseInt(uqObj[0]);
                     temp.name = uqObj[1];
                     temp.platform = uqObj[2];
@@ -48,7 +47,6 @@ export class GameService {
                 }
             })
             this.allGamesVals = allGameValues;
-            debugger;
 
             this.getGameValuesByFilterFn();
         });
@@ -61,5 +59,12 @@ export class GameService {
         let vals = this.allGamesVals.slice(scroll * 10, 10 + scroll * 10);
         this.gameValsSubj.next(vals);
     }
+
+    /* Find the item 'game' rank in it's own genre */
+    gameRankInItsDomainFn(item: GameClass) {
+        let domainGames = this.allGamesVals.filter(x => x.genre == item.genre);
+        return domainGames.findIndex(x => x.rank == item.rank) + 1;
+    }
+
 
 }
