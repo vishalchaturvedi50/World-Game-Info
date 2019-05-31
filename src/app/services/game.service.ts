@@ -50,8 +50,9 @@ export class GameService {
                     temp.publisher = uqObj[5];
                     temp.globalSales = parseFloat(uqObj[6]);
                     allGameValues.push(temp);
-                    if (allGen.indexOf(temp.genre) == -1)
+                    if (allGen.indexOf(temp.genre) == -1) {
                         allGen.push(temp.genre);
+                    }
                 }
             })
             this.allGamesVals = allGameValues;
@@ -80,14 +81,17 @@ export class GameService {
     getDataAsPerUserSearchFn(filter: FilterClass) {
         let items = this.allGamesVals;
         if (filter.searchText.length > 0) {
-            items = items.filter(x => x.name.toLowerCase().indexOf(filter.searchText.toLowerCase()) > -1);
+            items = items.filter(x => {
+                return x.name.toLowerCase().indexOf(filter.searchText.toLowerCase()) > -1
+                    || x.genre.toLowerCase().indexOf(filter.searchText.toLowerCase()) > -1
+            });
         }
 
         if (filter.sortType == 2) {
             items.sort((a, b) => { return a.year - b.year })
         }
-        else if (filter.sortType == 1) {
-
+        else if (filter.sortType == 3) {
+            items.sort((a, b) => { return <any>a.genre.localeCompare(b.genre) })
         }
 
         this.currentFilteredItems = items;

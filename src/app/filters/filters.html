@@ -12,10 +12,11 @@
                 [(ngModel)]="filter.sortType" class="form-control mr-sm-2">
                 <option value="1">Sort By Rank</option>
                 <option value="2">Sort By Year</option>
+                <option value="3">Sort By Genre</option>
             </select>
             <input (change)="changeInFilterValueFn()" [ngModelOptions]="{standalone: true}"
-                [(ngModel)]="filter.searchText" class="form-control mr-sm-2" type="search" placeholder="Search"
-                aria-label="Search">
+                [(ngModel)]="filter.searchText" class="form-control mr-sm-2" type="search"
+                placeholder="Search by Name or Genre" aria-label="Search">
         </form>
     </div>
 </nav>
