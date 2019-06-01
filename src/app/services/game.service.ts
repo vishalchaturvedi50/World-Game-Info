@@ -88,7 +88,7 @@ export class GameService {
     /* Filter the results based on change  */
     getDataAsPerUserSearchFn(filter: FilterClass) {
         /* A temp variable to store all the games */
-        let items = this.allGamesVals;
+        let items: Array<GameClass> = this.allGamesVals;
 
         //1st filter by search text- if user has provided any search text filter elements 
         //accordingly
@@ -109,6 +109,9 @@ export class GameService {
         }
         else if (filter.sortType == 3) {
             items.sort((a, b) => { return <any>a.genre.localeCompare(b.genre) })
+        }
+        else if (filter.sortType == 1) {
+            items.sort((a, b) => { return a.rank - b.rank; });
         }
 
         //Assign the filtered list to the current list of filtered item
